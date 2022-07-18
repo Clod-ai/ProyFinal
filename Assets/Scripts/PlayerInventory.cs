@@ -21,5 +21,4 @@ public enum WeaponNames
 public class PlayerInventory : MonoBehaviour
 {
     public string[] weapons = { "", "", "", "", "", "", "", "", "", "", "", "" };
-    public Sprite[] weaponImages = new Sprite[13];
 }

@@ -63,10 +63,13 @@
     <Compile Include="Assets\Scripts\PauseMenu\PauseActions.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\PauseMenu\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\PlayerInventory.cs" />
     <Compile Include="Assets\Scripts\StartMenu\MenuActions.cs" />
     <Compile Include="Assets\Scripts\PauseMenu\DataSetter.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\PlayerInventory.cs" />
+    <Compile Include="Assets\Scripts\WeaponObject.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\WeaponSO.cs" />
+    <Compile Include="Assets\Scripts\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sci-fi Weapons Arsenal\Sci-fi Weapons Arsenal\Effects\Shaders\WeaponLazer.shader" />

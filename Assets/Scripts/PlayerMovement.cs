@@ -193,6 +193,11 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.name);
+    }
+
     void OnCollisionExit(Collision collision)
     {
         if (collision.contactCount == 0)
