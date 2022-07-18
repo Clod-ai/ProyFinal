@@ -14,6 +14,6 @@ public class ShowSliderValue : MonoBehaviour
 
     public void UpdateText(float value)
     {
-        text.text = value.ToString("N2");
+        if (text) text.text = value.ToString("N2");
     }
 }

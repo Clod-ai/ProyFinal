@@ -147,7 +147,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-
     #region Collisions
     void OnCollisionStay(Collision collision)
     {
@@ -204,7 +203,6 @@ public class PlayerMovement : MonoBehaviour
     #endregion
 
 
-
     #region Entering States
     void EnterWalking()
     {
@@ -219,7 +217,7 @@ public class PlayerMovement : MonoBehaviour
                 //camCon.Punch(new Vector2(0, -3f));
             }
             //StartCoroutine(bHopCoroutine(bhopLeniency));
-            gameObject.SendMessage("OnStartWalking");
+            //gameObject.SendMessage("OnStartWalking");
             mode = Mode.Walking;
         }
     }
@@ -246,7 +244,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (VectorToGround().magnitude > 0.2f && CanRunOnThisWall(bannedGroundNormal) && wallStickTimer == 0f)
             {
-                gameObject.SendMessage("OnStartWallrunning");
+                //.SendMessage("OnStartWallrunning");
                 wrTimer = wallRunTime;
                 canDJump = true;
                 mode = Mode.Wallruning;
@@ -260,13 +258,12 @@ public class PlayerMovement : MonoBehaviour
     #endregion
 
 
-
     #region Movement Types
     void Walk(Vector3 wishDir, float maxSpeed, float acceleration)
     {
         if (jump && canJump)
         {
-            gameObject.SendMessage("OnJump");
+            //gameObject.SendMessage("OnJump");
             Jump();
         }
         else
@@ -300,7 +297,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (jump && !crouched)
         {
-            gameObject.SendMessage("OnDoubleJump");
+            //gameObject.SendMessage("OnDoubleJump");
             DoubleJump(wishDir);
         }
 
@@ -425,7 +422,6 @@ public class PlayerMovement : MonoBehaviour
     #endregion
 
 
-
     #region MathGenious
     Vector2 ClampedAdditionVector(Vector2 a, Vector2 b)
     {
@@ -506,7 +502,6 @@ public class PlayerMovement : MonoBehaviour
     #endregion
 
 
-
     #region Coroutines
     IEnumerator jumpCooldownCoroutine(float time)
     {
@@ -515,6 +510,5 @@ public class PlayerMovement : MonoBehaviour
         canJump = true;
     }
     #endregion
-
 
 }

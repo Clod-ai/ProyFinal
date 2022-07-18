@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public float musicVolume = 1f;
-    public float sfxVolume = 1f;
+    public static AudioManager instance;
+
+    public float musicVolume = 0.8f;
+    public float sfxVolume = 0.8f;
+
+    private void Awake()
+    {
+        if (instance != null) { Destroy(gameObject); return; }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 
     // Start is called before the first frame update
-    void Start()
+    /*void Start()
     {
         
     }
@@ -17,7 +26,7 @@ public class AudioManager : MonoBehaviour
     void Update()
     {
         
-    }
+    }*/
 
     public void AdjustMusicVolume(float _musicVolume)
     {
