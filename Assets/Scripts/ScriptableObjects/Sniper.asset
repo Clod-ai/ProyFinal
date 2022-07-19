@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Sniper
   m_EditorClassIdentifier: 
   weaponName: 11
-  weaponSprite: {fileID: 21300000, guid: 3daeb00dd5d8e1b4bad079c7881dedae, type: 3}
+  ammoInCharger: 2
+  rechargeAmmo: 2
+  damage: 50
+  range: 30
+  fireRate: 0.2
+  impactForce: 10

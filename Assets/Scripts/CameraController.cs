@@ -11,8 +11,10 @@ public class CameraController : MonoBehaviour
     //float sensY = 1f;
     float sensX;
     float sensY;
-    float baseFov = 90f;
-    float maxFov = 140f;
+    //float baseFov = 90f;
+    //float maxFov = 140f;
+    float baseFov = 65f;
+    float maxFov = 95f;
     float wallRunTilt = 15f;
 
     float wishTilt = 0;

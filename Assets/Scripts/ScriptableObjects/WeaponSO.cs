@@ -6,5 +6,10 @@ using UnityEngine;
 public class WeaponSO : ScriptableObject
 {
     public WeaponNames weaponName;
-    public Sprite weaponSprite;
+    public int ammoInCharger;
+    public int rechargeAmmo;
+    public float damage;
+    public float range;
+    public float fireRate;
+    public float impactForce;
 }

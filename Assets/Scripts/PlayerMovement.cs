@@ -83,10 +83,9 @@ public class PlayerMovement : MonoBehaviour
 
         running = (Input.GetKey(KeyCode.LeftShift) && Input.GetAxisRaw("Vertical") > 0.9);
         crouched = (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.C));
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            jump = true;
-        }
+        if (Input.GetKeyDown(KeyCode.Space)) jump = true;
+        if (Input.GetKeyDown(KeyCode.Q)) playerInventory.SelectPreviousWeapon();
+        else if (Input.GetKeyDown(KeyCode.E)) playerInventory.SelectNextWeapon();
 
         //Special use
         //if (Input.GetKeyDown(KeyCode.T)) transform.position = new Vector3(0f, 30f, 0f);
@@ -203,17 +202,18 @@ public class PlayerMovement : MonoBehaviour
         if (collObject.GetComponent<WeaponObject>())
         {
             WeaponObject wpObj = collObject.GetComponent<WeaponObject>();
-            playerInventory.AddWeapon(new Weapon(wpObj.weaponSO.weaponName, 20, 0));
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        GameObject collObject = collision.gameObject;
-        if (collObject.GetComponent<WeaponObject>())
-        {
-            WeaponObject wpObj = collObject.GetComponent<WeaponObject>();
-            playerInventory.AddWeapon(new Weapon(wpObj.weaponSO.weaponName, 20, 0));
+            playerInventory.AddWeapon(
+                new Weapon(
+                    wpObj.weaponSO.weaponName,
+                    wpObj.weaponSO.ammoInCharger,
+                    wpObj.weaponSO.rechargeAmmo,
+                    wpObj.weaponSO.damage,
+                    wpObj.weaponSO.range,
+                    wpObj.weaponSO.fireRate,
+                    wpObj.weaponSO.impactForce
+                    )
+                );
+            Destroy(collObject);
         }
     }
 

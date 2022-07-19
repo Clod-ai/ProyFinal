@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Shotgun
   m_EditorClassIdentifier: 
   weaponName: 7
-  weaponSprite: {fileID: 21300000, guid: f20fd9ad6d29d924595105738adec054, type: 3}
+  ammoInCharger: 5
+  rechargeAmmo: 5
+  damage: 40
+  range: 3
+  fireRate: 0.4
+  impactForce: 15

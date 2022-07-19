@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: PlasmaRifle
   m_EditorClassIdentifier: 
   weaponName: 1
-  weaponSprite: {fileID: 21300000, guid: 532ba7fd777272542aa1975f0f7c852b, type: 3}
+  ammoInCharger: 15
+  rechargeAmmo: 15
+  damage: 10
+  range: 15
+  fireRate: 5
+  impactForce: 10

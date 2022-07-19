@@ -53,7 +53,7 @@
     <UnityVersion>2020.3.30f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
@@ -72,6 +72,8 @@
     <Compile Include="Assets\PUSHING\Gun.cs" />
     <Compile Include="Assets\Scripts\WeaponObject.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\PUSHING\PlayerManager.cs" />
+    <Compile Include="Assets\PUSHING\EnemyController_New.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sci-fi Weapons Arsenal\Sci-fi Weapons Arsenal\Effects\Shaders\WeaponLazer.shader" />

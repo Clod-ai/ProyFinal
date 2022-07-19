@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: RocketLauncher
   m_EditorClassIdentifier: 
   weaponName: 8
-  weaponSprite: {fileID: 21300000, guid: 54433e1860d2a2e418e0cefeff9b883f, type: 3}
+  ammoInCharger: 1
+  rechargeAmmo: 1
+  damage: 30
+  range: 25
+  fireRate: 0.2
+  impactForce: 20

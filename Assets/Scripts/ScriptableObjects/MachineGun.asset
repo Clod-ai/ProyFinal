@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: MachineGun
   m_EditorClassIdentifier: 
   weaponName: 9
-  weaponSprite: {fileID: 21300000, guid: bb995dc5cd215a0479dd3b5f57783cb8, type: 3}
+  ammoInCharger: 50
+  rechargeAmmo: 50
+  damage: 1
+  range: 15
+  fireRate: 10
+  impactForce: 3

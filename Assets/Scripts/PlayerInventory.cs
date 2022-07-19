@@ -25,12 +25,14 @@ public class PlayerInventory : MonoBehaviour
     public static PlayerInventory instance;
 
     public int selectedWeapon = 0;
-
-    public Image weaponInGameUI;
+    public int selectedWeaponIndex = 0;
 
     public GameObject[] weaponsPrefabs;
     public Sprite[] weaponsSprites;
     public List<Weapon> weaponsInInventory = new List<Weapon>();
+
+    public Image weaponInGameUI;
+    public Text weaponAmmoText;
 
     private void Awake()
     {
@@ -56,16 +58,67 @@ public class PlayerInventory : MonoBehaviour
         else
         {
             weaponsInInventory.Add(newWeapon);
-            ChangeWeapon(selectedWeapon, (int) newWeapon.weaponName);
+            ChangeWeaponFirstTime(selectedWeapon, (int) newWeapon.weaponName);
             selectedWeapon = (int) newWeapon.weaponName;
-            //LanzarEvento de cambio de arma;
+            selectedWeaponIndex = 0;
         }
     }
 
-    public void ChangeWeapon(int previousWeapon, int newWeapon)
+    public void ChangeWeaponFirstTime(int previousWeapon, int newWeapon)
     {
         weaponsPrefabs[previousWeapon].SetActive(false);
         weaponsPrefabs[newWeapon].SetActive(true);
         weaponInGameUI.sprite = weaponsSprites[newWeapon];
+        weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+    }
+
+    public void SelectPreviousWeapon()
+    {
+        if (weaponsInInventory.Count > 1)
+        {
+            if (selectedWeaponIndex == 0)
+            {
+                weaponsPrefabs[selectedWeapon].SetActive(false);
+                selectedWeaponIndex = weaponsInInventory.Count - 1;
+                selectedWeapon = (int) weaponsInInventory[selectedWeaponIndex].weaponName;
+                weaponsPrefabs[selectedWeapon].SetActive(true);
+                weaponInGameUI.sprite = weaponsSprites[selectedWeapon];
+                weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+            }
+            else
+            {
+                weaponsPrefabs[selectedWeapon].SetActive(false);
+                selectedWeaponIndex -= 1;
+                selectedWeapon = (int) weaponsInInventory[selectedWeaponIndex].weaponName;
+                weaponsPrefabs[selectedWeapon].SetActive(true);
+                weaponInGameUI.sprite = weaponsSprites[selectedWeapon];
+                weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+            }
+        }
+    }
+
+    public void SelectNextWeapon()
+    {
+        if (weaponsInInventory.Count > 1)
+        {
+            if (selectedWeaponIndex == weaponsInInventory.Count - 1)
+            {
+                weaponsPrefabs[selectedWeapon].SetActive(false);
+                selectedWeaponIndex = 0;
+                selectedWeapon = (int) weaponsInInventory[selectedWeaponIndex].weaponName;
+                weaponsPrefabs[selectedWeapon].SetActive(true);
+                weaponInGameUI.sprite = weaponsSprites[selectedWeapon];
+                weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+            }
+            else
+            {
+                weaponsPrefabs[selectedWeapon].SetActive(false);
+                selectedWeaponIndex += 1;
+                selectedWeapon = (int)weaponsInInventory[selectedWeaponIndex].weaponName;
+                weaponsPrefabs[selectedWeapon].SetActive(true);
+                weaponInGameUI.sprite = weaponsSprites[selectedWeapon];
+                weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+            }
+        }
     }
 }

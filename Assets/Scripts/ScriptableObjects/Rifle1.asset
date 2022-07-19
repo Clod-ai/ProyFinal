@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Rifle1
   m_EditorClassIdentifier: 
   weaponName: 2
-  weaponSprite: {fileID: 21300000, guid: 6ec2ee453daec964cbbfb3ac362d52a9, type: 3}
+  ammoInCharger: 20
+  rechargeAmmo: 20
+  damage: 12
+  range: 15
+  fireRate: 10
+  impactForce: 12

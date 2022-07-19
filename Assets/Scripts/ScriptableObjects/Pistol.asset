@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08f7163109494544926a0870ab26586, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: 
-  weaponName: Pistol
-  weaponSprite: {fileID: 21300000, guid: 5c6bd5610ed3ae645afb00a0d1ad9057, type: 3}
+  weaponName: 0
+  ammoInCharger: 8
+  rechargeAmmo: 8
+  damage: 5
+  range: 6
+  fireRate: 1.5
+  impactForce: 1

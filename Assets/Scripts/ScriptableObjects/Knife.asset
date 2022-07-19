@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Knife
   m_EditorClassIdentifier: 
   weaponName: 10
-  weaponSprite: {fileID: 21300000, guid: 17b69590555c47c499b910f7e8de9f71, type: 3}
+  ammoInCharger: 1
+  rechargeAmmo: 3
+  damage: 3
+  range: 6
+  fireRate: 2
+  impactForce: 8
