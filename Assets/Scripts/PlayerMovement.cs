@@ -59,11 +59,15 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
     Vector3 dir = Vector3.zero;
 
+    // Singleton Inventory
+    PlayerInventory playerInventory;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         camCon = GetComponentInChildren<CameraController>();
         col = GetComponent<CapsuleCollider>();
+        playerInventory = PlayerInventory.instance;
     }
 
     /*void OnGUI()
@@ -193,9 +197,24 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        GameObject collObject = other.gameObject;
+        if (collObject.GetComponent<WeaponObject>())
+        {
+            WeaponObject wpObj = collObject.GetComponent<WeaponObject>();
+            playerInventory.AddWeapon(new Weapon(wpObj.weaponSO.weaponName, 20, 0));
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.gameObject.name);
+        GameObject collObject = collision.gameObject;
+        if (collObject.GetComponent<WeaponObject>())
+        {
+            WeaponObject wpObj = collObject.GetComponent<WeaponObject>();
+            playerInventory.AddWeapon(new Weapon(wpObj.weaponSO.weaponName, 20, 0));
+        }
     }
 
     void OnCollisionExit(Collision collision)

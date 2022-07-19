@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class Weapon
 {
-    public string weaponName;
-    public Sprite weaponImage;
+    public WeaponNames weaponName;
     public int ammoInCharger;
-    public int totalAmmo;
+    public int rechargeAmmo;
 
-    public Weapon(string _weaponName, Sprite _weaponImage, int _ammoInCharger, int _totalAmmo)
+    public Weapon(WeaponNames _weaponName, int _ammoInCharger, int _rechargeAmmo)
     {
         weaponName = _weaponName;
-        weaponImage = _weaponImage;
         ammoInCharger = _ammoInCharger;
-        totalAmmo = _totalAmmo;
+        rechargeAmmo = _rechargeAmmo;
     }
 }
