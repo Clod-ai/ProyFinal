@@ -16,4 +16,11 @@ public class PlayerManager : MonoBehaviour
     #endregion
 
     public GameObject player;
+    public GameObject finishUI;
+
+    public void ShowFinishUI()
+    {
+        PauseMenu.gameIsPaused = true;
+        finishUI.SetActive(true);
+    }
 }

@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public float rotationYSensitivity = 1f;
     public float rotationXSensitivity = 1f;
 
+    AudioManager audioManager;
+
     private void Awake()
     {
         if (instance != null) { Destroy(gameObject); return; }
@@ -19,14 +21,22 @@ public class GameManager : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    /*void Start()
+    void Start()
     {
-
-    }*/
+        audioManager = AudioManager.instance;
+    }
 
     // Update is called once per frame
     /*void Update()
     {
         
     }*/
+
+    public void StartGame()
+    {
+        StartCoroutine(audioManager.StopSong(0, 2));
+        StartCoroutine(audioManager.PlaySong(1, 2));
+        SceneManager.LoadScene("Castle");
+    }
+
 }

@@ -9,9 +9,8 @@ public class AudioManager : MonoBehaviour
     public float musicVolume = 0.8f;
     public float sfxVolume = 0.8f;
 
-    public AudioClip[] songs;
-
-    private List<AudioSource> audioSourcesSongs = new List<AudioSource>();
+    public Sound[] songs;
+    public Sound[] soundEffects;
 
     private void Awake()
     {
@@ -19,21 +18,22 @@ public class AudioManager : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(gameObject);
 
-        for (int i = 0; i < songs.Length; i++)
+        foreach (Sound s in songs)
         {
-            audioSourcesSongs.Add(gameObject.AddComponent<AudioSource>());
-            audioSourcesSongs[i].clip = songs[i];
-            audioSourcesSongs[i].volume = musicVolume;
-            audioSourcesSongs[i].loop = true;
-            audioSourcesSongs[i].playOnAwake = false;
-            audioSourcesSongs[i].pitch = 1;
+            s.source = gameObject.AddComponent<AudioSource>();
+            s.source.clip = s.clip;
+            s.source.volume = musicVolume;
+            s.source.loop = s.loop;
+            s.source.playOnAwake = s.playOnAwake;
+            s.source.pitch = s.pitch;
+            s.source.panStereo = s.stereoPan;
         }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        Play(0);
+        StartCoroutine(PlaySong(0, 5));
     }
 
     // Update is called once per frame
@@ -45,15 +45,46 @@ public class AudioManager : MonoBehaviour
     public void AdjustMusicVolume(float _musicVolume)
     {
         musicVolume = _musicVolume;
+        foreach (Sound s in songs)
+        {
+            if (s.source) s.source.volume = musicVolume;
+        }
     }
 
     public void AdjustSfxVolume(float _sfxVolume)
     {
         sfxVolume = _sfxVolume;
+        foreach (Sound s in soundEffects)
+        {
+            if (s.source) s.source.volume = sfxVolume;
+        }
     }
 
-    public void Play(int number)
+    public IEnumerator PlaySong(int number, float fadeTime)
     {
-        audioSourcesSongs[number].Play();
+        AudioSource aS = songs[number].source;
+        aS.volume = 0f;
+        aS.Play();
+        float currentTime = 0;
+        float sourceVolume = 0f;
+        while (currentTime < fadeTime)
+        {
+            aS.volume = Mathf.Lerp(sourceVolume, musicVolume, currentTime / fadeTime);
+            currentTime += Time.deltaTime;
+            yield return null;
+        }
+    }
+    public IEnumerator StopSong(int number, float fadeTime)
+    {
+        AudioSource aS = songs[number].source;
+        float currentTime = 0;
+        float sourceVolume = aS.volume;
+        while (currentTime < fadeTime)
+        {
+            aS.volume = Mathf.Lerp(sourceVolume, 0f, currentTime / fadeTime);
+            currentTime += Time.deltaTime;
+            yield return null;
+        }
+        aS.Stop();
     }
 }

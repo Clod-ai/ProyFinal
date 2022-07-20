@@ -8,39 +8,59 @@ public class MenuActions : MonoBehaviour
     GameManager gameManager;
     AudioManager audioManager;
 
+    float rotationXSensitivity;
+    float rotationYSensitivity;
+    float musicVolume;
+    float sfxVolume;
+
+    public GameObject settingsHolder;
+
     private void Start()
     {
         gameManager = GameManager.instance;
         audioManager = AudioManager.instance;
+        rotationXSensitivity = gameManager.rotationXSensitivity;
+        rotationYSensitivity = gameManager.rotationYSensitivity;
+        musicVolume = audioManager.musicVolume;
+        sfxVolume = audioManager.sfxVolume;
     }
 
     public void AdjustRotationXSensitivity(float _rotationXSensitivity)
     {
-        gameManager.rotationXSensitivity = _rotationXSensitivity;
+        rotationXSensitivity = _rotationXSensitivity;
     }
 
     public void AdjustRotationYSensitivity(float _rotationYSensitivity)
     {
-        gameManager.rotationYSensitivity = _rotationYSensitivity;
+        rotationYSensitivity = _rotationYSensitivity;
     }
 
     public void AdjustMusicVolume(float _musicVolume)
     {
-        audioManager.musicVolume = _musicVolume;
+        musicVolume = _musicVolume;
     }
 
     public void AdjustSfxVolume(float _sfxVolume)
     {
-        audioManager.sfxVolume = _sfxVolume;
+        sfxVolume = _sfxVolume;
     }
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Castle");
+        gameManager.StartGame();
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void SaveChanges()
+    {
+        gameManager.rotationXSensitivity = rotationXSensitivity;
+        gameManager.rotationYSensitivity = rotationYSensitivity;
+        audioManager.AdjustMusicVolume(musicVolume);
+        audioManager.AdjustSfxVolume(sfxVolume);
+        settingsHolder.SetActive(false);
     }
 }

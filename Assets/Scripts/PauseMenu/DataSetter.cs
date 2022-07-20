@@ -30,8 +30,8 @@ public class DataSetter : MonoBehaviour
 
     private void OnEnable()
     {
-        gameManager = GameManager.instance;
-        audioManager = AudioManager.instance;
+        if (!gameManager) gameManager = GameManager.instance;
+        if (!audioManager) audioManager = AudioManager.instance;
         GetAndSetData(type);
     }
 

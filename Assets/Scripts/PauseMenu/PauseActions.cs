@@ -12,10 +12,16 @@ public class PauseActions : MonoBehaviour
     float musicVolume;
     float sfxVolume;
 
+    public GameObject settingsHolder;
+
     private void Start()
     {
         audioManager = AudioManager.instance;
         gameManager = GameManager.instance;
+        rotationXSensitivity = gameManager.rotationXSensitivity;
+        rotationYSensitivity = gameManager.rotationYSensitivity;
+        musicVolume = audioManager.musicVolume;
+        sfxVolume = audioManager.sfxVolume;
     }
 
     public void AdjustRotationXSensitivity(float _rotationXSensitivity)
@@ -47,5 +53,6 @@ public class PauseActions : MonoBehaviour
         camController.SetYSens(rotationYSensitivity);
         audioManager.AdjustMusicVolume(musicVolume);
         audioManager.AdjustSfxVolume(sfxVolume);
+        settingsHolder.SetActive(false);
     }
 }

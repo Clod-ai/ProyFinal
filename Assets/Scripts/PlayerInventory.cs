@@ -69,7 +69,7 @@ public class PlayerInventory : MonoBehaviour
         weaponsPrefabs[previousWeapon].SetActive(false);
         weaponsPrefabs[newWeapon].SetActive(true);
         weaponInGameUI.sprite = weaponsSprites[newWeapon];
-        weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+        //weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
     }
 
     public void SelectPreviousWeapon()
@@ -83,7 +83,7 @@ public class PlayerInventory : MonoBehaviour
                 selectedWeapon = (int) weaponsInInventory[selectedWeaponIndex].weaponName;
                 weaponsPrefabs[selectedWeapon].SetActive(true);
                 weaponInGameUI.sprite = weaponsSprites[selectedWeapon];
-                weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+                //weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
             }
             else
             {
@@ -92,7 +92,7 @@ public class PlayerInventory : MonoBehaviour
                 selectedWeapon = (int) weaponsInInventory[selectedWeaponIndex].weaponName;
                 weaponsPrefabs[selectedWeapon].SetActive(true);
                 weaponInGameUI.sprite = weaponsSprites[selectedWeapon];
-                weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+                //weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
             }
         }
     }
@@ -108,7 +108,7 @@ public class PlayerInventory : MonoBehaviour
                 selectedWeapon = (int) weaponsInInventory[selectedWeaponIndex].weaponName;
                 weaponsPrefabs[selectedWeapon].SetActive(true);
                 weaponInGameUI.sprite = weaponsSprites[selectedWeapon];
-                weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+                //weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
             }
             else
             {
@@ -117,7 +117,7 @@ public class PlayerInventory : MonoBehaviour
                 selectedWeapon = (int)weaponsInInventory[selectedWeaponIndex].weaponName;
                 weaponsPrefabs[selectedWeapon].SetActive(true);
                 weaponInGameUI.sprite = weaponsSprites[selectedWeapon];
-                weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
+                //weaponAmmoText.text = weaponsInInventory[selectedWeaponIndex].ammoInCharger + "/" + weaponsInInventory[selectedWeaponIndex].rechargeAmmo;
             }
         }
     }

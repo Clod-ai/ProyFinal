@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rapax_Controller
+  m_Controller: {fileID: 9100000, guid: fe8cee1503bdb4a43b17ed65b81b237e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 456b976c27acc7c46999d5be966a41d6, type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 739edeb42209c6a438f231cc91660602, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: a344980a9d11ee94396cbc6efa5713b3, type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 9031bdfcf07d8c34b8a39d74db252010, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: cd1dcf454b8961f41aeafe2bfb46433a, type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: f5b075bcee947444e990670abf134760, type: 3}

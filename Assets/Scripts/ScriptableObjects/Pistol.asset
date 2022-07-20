@@ -15,7 +15,7 @@ MonoBehaviour:
   weaponName: 0
   ammoInCharger: 8
   rechargeAmmo: 8
-  damage: 5
+  damage: 6
   range: 6
   fireRate: 1.5
   impactForce: 1

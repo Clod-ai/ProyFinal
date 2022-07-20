@@ -15,14 +15,19 @@ public class Gun : MonoBehaviour
     private float range;
     private float fireRate;
     private float impactForce;
+    private AudioSource shootingAudioSource;
+
+    private AudioManager audioManager;
 
     /* Nuevo */
     private void Start()
     {
+        audioManager = AudioManager.instance;
         damage = weaponData.damage;
         range = weaponData.range;
         fireRate = weaponData.fireRate;
         impactForce = weaponData.impactForce;
+        SetSoundEffect();
     }
 
     // Update is called once per frame
@@ -38,6 +43,7 @@ public class Gun : MonoBehaviour
     private void Shoot()
     {
         if (Muzzle) Muzzle.Play();
+        if (shootingAudioSource) shootingAudioSource.Play();
         else Debug.LogWarning("There's no muzzle effect for active gun");
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
@@ -58,5 +64,18 @@ public class Gun : MonoBehaviour
             GameObject impact = Instantiate(impactEf, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impact, 1.5f);
         }
+    }
+
+    void SetSoundEffect()
+    {
+        Sound s = audioManager.soundEffects[(int)weaponData.weaponName];
+        shootingAudioSource = gameObject.AddComponent<AudioSource>();
+        s.source = shootingAudioSource;
+        s.source.clip = s.clip;
+        s.source.volume = audioManager.sfxVolume;
+        s.source.loop = s.loop;
+        s.source.playOnAwake = s.playOnAwake;
+        s.source.pitch = s.pitch;
+        s.source.panStereo = s.stereoPan;
     }
 }
