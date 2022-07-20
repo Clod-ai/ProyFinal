@@ -15,11 +15,11 @@ C:/Users/asus/UnityProjects/ProyFinal
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1062
+6292
 Successfully changed project path to: C:/Users/asus/UnityProjects/ProyFinal
 C:/Users/asus/UnityProjects/ProyFinal
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 125.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 132.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,586 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002968 seconds.
+Registered in 0.003018 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 135.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 148.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
+- Completed reload, in  0.926 seconds
 Domain Reload Profiling:
-	ReloadAssembly (889ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (926ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (691ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (731ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
+			SetupTypeCache (223ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (312ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (331ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (136ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005642 seconds.
+Registered in 0.004648 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
+- Completed reload, in  1.397 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1341ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (1398ms)
+		BeginReloadAssembly (208ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1046ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1097ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
+			SetupTypeCache (369ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (392ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (423ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (257ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (275ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.6 MB.
-System memory in use after: 73.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1960.
-Total: 4.182100 ms (FindLiveObjects: 0.164700 ms CreateObjectMapping: 0.048400 ms MarkObjects: 3.880000 ms  DeleteObjects: 0.087400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Audio/Sfx
-  artifactKey: Guid(6d0e3e51c7c3cc2499c8ed506f6580bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Sfx using Guid(6d0e3e51c7c3cc2499c8ed506f6580bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5a12eb2e0e3a8a809b7774af463fa4') in 0.010970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.534401 seconds.
-  path: Assets/Scenes/Castle.unity
-  artifactKey: Guid(eb92523331330524e944e4010fce5191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Castle.unity using Guid(eb92523331330524e944e4010fce5191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3766e1534515d86f2f6d265464f191') in 0.022050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.297363 seconds.
-  path: Assets/Sci-Fi Gun Sounds
-  artifactKey: Guid(e7da2f6869cf28a47a275b2579e16339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds using Guid(e7da2f6869cf28a47a275b2579e16339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb04dddc8cb3db42f1a0e171bb15afcb') in 0.014053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048147 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 1_1.wav
-  artifactKey: Guid(808881b7f5b69424995017534ae7f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 1_1.wav using Guid(808881b7f5b69424995017534ae7f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7ce939d0177d4ddf2cb8f0c70dee58') in 0.152998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 4_1.wav
-  artifactKey: Guid(0e3f0af8cabae0549afc25acf1fa7ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 4_1.wav using Guid(0e3f0af8cabae0549afc25acf1fa7ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694984f8467837b52725e4e313f1e893') in 0.025839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 09 Shoot 2.wav
-  artifactKey: Guid(7603f163a2dfd5547ad675a8fcd24fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 09 Shoot 2.wav using Guid(7603f163a2dfd5547ad675a8fcd24fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e00fe8ae6305c96b9682c645befe40') in 0.021016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 08 Reload 1 (Laser).wav
-  artifactKey: Guid(0696bd23a38464f438535f18f6997705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 08 Reload 1 (Laser).wav using Guid(0696bd23a38464f438535f18f6997705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff17952069a675f6faa0051f57085fa') in 0.022324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 03 Reload 1.wav
-  artifactKey: Guid(9ea6f6d305a81c54e9837cf6154d496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 03 Reload 1.wav using Guid(9ea6f6d305a81c54e9837cf6154d496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422ed4928fee7096a01052572a0562f7') in 0.021701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 05 Stop (Laser).wav
-  artifactKey: Guid(a83904e228fb8f54bb288d81b361b950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 05 Stop (Laser).wav using Guid(a83904e228fb8f54bb288d81b361b950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abbc6f9bcc9e588d068ae66b9007783') in 0.022160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 08 Foley 1 (Laser).wav
-  artifactKey: Guid(85df4923d52f86e41b3e3564b8fb26d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 08 Foley 1 (Laser).wav using Guid(85df4923d52f86e41b3e3564b8fb26d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aab3c961f9364b5aee3fc47d8d873aa') in 0.020153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 3_1.wav
-  artifactKey: Guid(445e8ab82d9e82046a1d44b84b0efdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 3_1.wav using Guid(445e8ab82d9e82046a1d44b84b0efdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2851647a33f4d11bfe95d089cb00d26b') in 0.022057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 07 Shoot 1.wav
-  artifactKey: Guid(58468982eb5a56844b71ed2d0da0504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 07 Shoot 1.wav using Guid(58468982eb5a56844b71ed2d0da0504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf1d75bb7eef04019efeff504937874') in 0.023781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 5_1.wav
-  artifactKey: Guid(134b43cb1ed86894bb4fb2cb7f506491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 5_1.wav using Guid(134b43cb1ed86894bb4fb2cb7f506491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daa609a481350503df62f061953b85d') in 0.020168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 06.wav
-  artifactKey: Guid(d3875241053e658408c8d95d68751816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 06.wav using Guid(d3875241053e658408c8d95d68751816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82a1200313f08caa4bbd1b2fee00653') in 0.019775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 01 Reload 1.wav
-  artifactKey: Guid(9899fefee0fd6754ea82568066cc479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 01 Reload 1.wav using Guid(9899fefee0fd6754ea82568066cc479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8960b6517a016a500e3842239e9b7be') in 0.020059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 07 Reload 1.wav
-  artifactKey: Guid(d1b8a10444fb9ee4b8e2d3ca127165b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 07 Reload 1.wav using Guid(d1b8a10444fb9ee4b8e2d3ca127165b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3178e72d6161636877b8a8a08e8593d7') in 0.020123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 05 Load (Laser).wav
-  artifactKey: Guid(476dc73aad34fc04399f4f66963ea06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 05 Load (Laser).wav using Guid(476dc73aad34fc04399f4f66963ea06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca1c9dba3d634c2042d0996f413b018') in 0.021320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 01 Shoot 1.wav
-  artifactKey: Guid(322691fc9d9c33e44b7233ec59839870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 01 Shoot 1.wav using Guid(322691fc9d9c33e44b7233ec59839870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e125d8bb9231dae548aac7b1b2b9f30b') in 0.020265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 05 Foley 1 (Laser).wav
-  artifactKey: Guid(da8cec7c8ff9112448a32753f46f63f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 05 Foley 1 (Laser).wav using Guid(da8cec7c8ff9112448a32753f46f63f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b35cc7041c982864ac64ac69cc2635a') in 0.019748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 03 Foley 1.wav
-  artifactKey: Guid(0851bc2f1505c444298c63bf2c71d603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 03 Foley 1.wav using Guid(0851bc2f1505c444298c63bf2c71d603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5853ddb2ba5e802b320b9a1de3a68da7') in 0.023334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 01 Foley 1.wav
-  artifactKey: Guid(f9a5468f07541ba48b83433b2aa53168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 01 Foley 1.wav using Guid(f9a5468f07541ba48b83433b2aa53168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7328ad33ac8d934713d56557f07ccef2') in 0.020205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 02 Foley 1.wav
-  artifactKey: Guid(0de4e194526caa744ac189f4fa97d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 02 Foley 1.wav using Guid(0de4e194526caa744ac189f4fa97d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249a794ef29782638c536e8149ea6298') in 0.020765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 2_1.wav
-  artifactKey: Guid(529719c9d098e67448f7fe05ef444bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 2_1.wav using Guid(529719c9d098e67448f7fe05ef444bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be10bb7d1f7b31f203f23d2e1d1efed8') in 0.019551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 03.wav
-  artifactKey: Guid(5893dd94bb2d0eb4a82c4274112dce07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 03.wav using Guid(5893dd94bb2d0eb4a82c4274112dce07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4227bd6c89eff9cf20e40c3f07634f3') in 0.021785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 08 Load (Laser).wav
-  artifactKey: Guid(1093bc83e9a93734f90bffd498bc785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 08 Load (Laser).wav using Guid(1093bc83e9a93734f90bffd498bc785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cae46f3d3caee879d7bcbbef5f6c28e') in 0.020411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Laser Saber 2_1.wav
-  artifactKey: Guid(70ced0fae9e83cc4681f2ce5e7f7a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Laser Saber 2_1.wav using Guid(70ced0fae9e83cc4681f2ce5e7f7a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a582fdce2b20b1a5bcaba1a96ea81c09') in 0.020050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 09 Reload 1.wav
-  artifactKey: Guid(d8be509a3ac2b5545831da9c36967985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 09 Reload 1.wav using Guid(d8be509a3ac2b5545831da9c36967985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701965717491b60606c98843d68abd10') in 0.019040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 2_2.wav
-  artifactKey: Guid(27cd983495c17454fbb139608dc5318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 2_2.wav using Guid(27cd983495c17454fbb139608dc5318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5205621f92ae2f790d38c196d3e3fbb2') in 0.020402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 3_2.wav
-  artifactKey: Guid(c285a69a770de3a489b1b059632ad552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 3_2.wav using Guid(c285a69a770de3a489b1b059632ad552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c640656b018d11a16e2c0a9014c63204') in 0.020495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 02 Shoot 1.wav
-  artifactKey: Guid(84801799ee77c58409fc6d30d643f18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 02 Shoot 1.wav using Guid(84801799ee77c58409fc6d30d643f18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb13f4efb4d99b1f8252ba12cf15d17') in 0.019974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 04.wav
-  artifactKey: Guid(7189cb0f88b160d4887badfcb9a95ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 04.wav using Guid(7189cb0f88b160d4887badfcb9a95ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ccd9b94a9163f6973dc6a5dfc010f2') in 0.021208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 1_2.wav
-  artifactKey: Guid(fdf53218a9bffa3448f8109159984157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Additional Weapon Sounds 1_2.wav using Guid(fdf53218a9bffa3448f8109159984157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a8ec501be46300eafd61362eaec669') in 0.019994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 07.wav
-  artifactKey: Guid(cb58a281002229743b2f0e038053af46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 07.wav using Guid(cb58a281002229743b2f0e038053af46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb70e6a221fa87a01a73c7aed39db98') in 0.020052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 02 Reload 1.wav
-  artifactKey: Guid(bbfa75a640467964cb1ab34ebb14f842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 02 Reload 1.wav using Guid(bbfa75a640467964cb1ab34ebb14f842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaefdae037268555f7f863fe8d29ce0') in 0.020568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 08 Loop (Laser).wav
-  artifactKey: Guid(e182b4e5d8671fc4e8cae8af150890ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 08 Loop (Laser).wav using Guid(e182b4e5d8671fc4e8cae8af150890ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52da45402af748495ef7dda9ff4e086') in 0.023729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 01.wav
-  artifactKey: Guid(0f4d5c3d0a0538f4381f55e076866b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 01.wav using Guid(0f4d5c3d0a0538f4381f55e076866b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec627caa9f3cb8e62b8a4b97c02b6e7d') in 0.018975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 09 Foley 2.wav
-  artifactKey: Guid(6c3899f98e983dc499791b601cb065c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 09 Foley 2.wav using Guid(6c3899f98e983dc499791b601cb065c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922ad2b387901edfced4455f85a1fc5e') in 0.028789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 09 Foley 1.wav
-  artifactKey: Guid(40de0b837bcb4b943ab4ee844bf01c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 09 Foley 1.wav using Guid(40de0b837bcb4b943ab4ee844bf01c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3caae76fcf94cc551e0ed0671109dd') in 0.024849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 08 Stop (Laser).wav
-  artifactKey: Guid(4ef2e74f07ad4ef46bee3875344832b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 08 Stop (Laser).wav using Guid(4ef2e74f07ad4ef46bee3875344832b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48729095ffce47b931848bbfb99d683b') in 0.026322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 09 Reload 2.wav
-  artifactKey: Guid(ff41ea1bb90ed144c86a3e26e5519f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 09 Reload 2.wav using Guid(ff41ea1bb90ed144c86a3e26e5519f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5064dc94f22ff0598711f07e860e91') in 0.028035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 02.wav
-  artifactKey: Guid(53e989fdd903ee1459e595d0f733cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 02.wav using Guid(53e989fdd903ee1459e595d0f733cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adabf3b4ff8c69ba3c50e65c9c988cbb') in 0.023711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 03 Shoot 1.wav
-  artifactKey: Guid(4de7b5eedb11e0243a58fb1e2fee6c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 03 Shoot 1.wav using Guid(4de7b5eedb11e0243a58fb1e2fee6c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f27e90dceb49c99fccc41590897dac4') in 0.026227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 05.wav
-  artifactKey: Guid(e3cc6100195a35145ad7db61bc49d25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Sci Fi Explosion 05.wav using Guid(e3cc6100195a35145ad7db61bc49d25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4966fd78be0ed211c4ec0c5f26d0716a') in 0.022444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 07 Foley 1.wav
-  artifactKey: Guid(30aaef42fd54ea944bd15e6dcda1f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 07 Foley 1.wav using Guid(30aaef42fd54ea944bd15e6dcda1f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d84b90c5a5105435a035cc8f4b7387') in 0.023581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 05 Loop (Laser).wav
-  artifactKey: Guid(1505b9043c0b4c44b83c770f0c5b341d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 05 Loop (Laser).wav using Guid(1505b9043c0b4c44b83c770f0c5b341d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4020600476a826f098795380d9fce0bf') in 0.017256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Laser Saber 1_1.wav
-  artifactKey: Guid(007dc9ff0a352af4a9823e93fdb1a1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Laser Saber 1_1.wav using Guid(007dc9ff0a352af4a9823e93fdb1a1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c41ad975174a1220d81c0767cd5aef') in 0.022733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 09 Shoot 1.wav
-  artifactKey: Guid(dd4bca9b3527de943a104b631732a4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 09 Shoot 1.wav using Guid(dd4bca9b3527de943a104b631732a4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a05327a6d4bf9968cb53cbf9ad4543e') in 0.024453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 05 Reload 1 (Laser).wav
-  artifactKey: Guid(566f1acba9972e142a242346c026df39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 05 Reload 1 (Laser).wav using Guid(566f1acba9972e142a242346c026df39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec83063b6ec3d4b074c77466aad75449') in 0.022931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.330447 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 10 Foley 1.wav
-  artifactKey: Guid(e9e29085df8cce34a89008536f280b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 10 Foley 1.wav using Guid(e9e29085df8cce34a89008536f280b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71d65ad186769e3d01270f01e551042') in 0.013433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 12 Foley 2 (Laser).wav
-  artifactKey: Guid(f40564ca95aef9e4399fadf7a276737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 12 Foley 2 (Laser).wav using Guid(f40564ca95aef9e4399fadf7a276737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e32f142f28dddcd1c65e542eb173fc') in 0.022913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 10 Shoot 1.wav
-  artifactKey: Guid(8b9948ad6d3fea2409d8f00a47ce56da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 10 Shoot 1.wav using Guid(8b9948ad6d3fea2409d8f00a47ce56da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464a69bca14408051aabc90eae915b95') in 0.021929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 13 Reload 3.wav
-  artifactKey: Guid(117ddfb0f4539f84b8e83063e56d0d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 13 Reload 3.wav using Guid(117ddfb0f4539f84b8e83063e56d0d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04375294039bc265a04cab15a477758f') in 0.020291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 12 Reload 1 (Laser).wav
-  artifactKey: Guid(02ebe8af6edf01847b816d2e4482bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 12 Reload 1 (Laser).wav using Guid(02ebe8af6edf01847b816d2e4482bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1f37827c1b8c916eb631e397a4085b') in 0.019868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 12 Reload 2 (Laser).wav
-  artifactKey: Guid(0a4469d0af164ff458c0b3a2767d0215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 12 Reload 2 (Laser).wav using Guid(0a4469d0af164ff458c0b3a2767d0215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce781235246ff631b4e98783e8245f5') in 0.020106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 13 Foley 3.wav
-  artifactKey: Guid(3f859f202d3611f4ca966faa58aac497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 13 Foley 3.wav using Guid(3f859f202d3611f4ca966faa58aac497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd260ba3b7e1ddf9c63b5ae5747fed1') in 0.022079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 13 Shoot 1.wav
-  artifactKey: Guid(63b27e00f9605864da7a29c86ff1a0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 13 Shoot 1.wav using Guid(63b27e00f9605864da7a29c86ff1a0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f1f77de53e0db2b02eda1360d1662f') in 0.024717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 13 Foley 1.wav
-  artifactKey: Guid(74229adcd4f5cbd4388361dd1a23f6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 13 Foley 1.wav using Guid(74229adcd4f5cbd4388361dd1a23f6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66917c219788853e28cdcb6360998f0') in 0.018405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 13 Reload 2.wav
-  artifactKey: Guid(e41626156627a084eb227ab2297029cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 13 Reload 2.wav using Guid(e41626156627a084eb227ab2297029cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4015a6a59c76430f8ee937c05e15db38') in 0.019987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 15 Foley 2.wav
-  artifactKey: Guid(9ce313fcae2ef674c810648e515b11f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 15 Foley 2.wav using Guid(9ce313fcae2ef674c810648e515b11f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f85b0ec14d205278270129be0ed1771') in 0.020836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 12 Stop (Laser).wav
-  artifactKey: Guid(3d1aebfab3b717d439c9325b22e443ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 12 Stop (Laser).wav using Guid(3d1aebfab3b717d439c9325b22e443ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a5bf66c616e8a567dffa7ebfe0477c') in 0.020717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 12 Load (Laser).wav
-  artifactKey: Guid(1d1bde60878a11c4790d15094492bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 12 Load (Laser).wav using Guid(1d1bde60878a11c4790d15094492bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b4f313b268e3dc3fb424db92243987') in 0.022156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 13 Reload 1.wav
-  artifactKey: Guid(0eb95ef2760df984ba7f5b72f40d9886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 13 Reload 1.wav using Guid(0eb95ef2760df984ba7f5b72f40d9886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edad04de299c40d157655f101f92ea38') in 0.021052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 10 Reload 1.wav
-  artifactKey: Guid(70b7061f8260ea34f9167132abd2f28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 10 Reload 1.wav using Guid(70b7061f8260ea34f9167132abd2f28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066f7a71ebca77b1248638a5d2ff4087') in 0.024146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 10 Shoot 5.wav
-  artifactKey: Guid(5d93a898b4dd3074196739cedacee93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 10 Shoot 5.wav using Guid(5d93a898b4dd3074196739cedacee93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aafb800f965622f31d088938f9b2b2') in 0.020759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 15 Reload 2.wav
-  artifactKey: Guid(63849afa808a9d846a34a02f553e660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 15 Reload 2.wav using Guid(63849afa808a9d846a34a02f553e660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1401c38304884db1126b07c1a84d15ea') in 0.018428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 15 Shoot 1.wav
-  artifactKey: Guid(96e86962dcb9b6d44a4cd94355a8fb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 15 Shoot 1.wav using Guid(96e86962dcb9b6d44a4cd94355a8fb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb22f4f7d84bff98d4c24e2e6b95b5d') in 0.020119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 15 Shoot 2.wav
-  artifactKey: Guid(a774bf9d763683c46b055c811333c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 15 Shoot 2.wav using Guid(a774bf9d763683c46b055c811333c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b482ac389f161b353769ac991f366110') in 0.025438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 15 Reload 1.wav
-  artifactKey: Guid(a90bacf50f7ba6946ba978823c3025dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 15 Reload 1.wav using Guid(a90bacf50f7ba6946ba978823c3025dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996d7daed16bee390737b4667ee4f34f') in 0.023443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 15 Foley 1.wav
-  artifactKey: Guid(cf6e2702ce8b51a4a93af4a3b45e3c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 15 Foley 1.wav using Guid(cf6e2702ce8b51a4a93af4a3b45e3c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9580bc69fbba71023caaff3749403eb3') in 0.022496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 12 Foley 1 (Laser).wav
-  artifactKey: Guid(1f2263c80b9c57b499522e4fce6ff319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 12 Foley 1 (Laser).wav using Guid(1f2263c80b9c57b499522e4fce6ff319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2779d6509df0f981e1efb00d2c882adc') in 0.026353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 13 Foley 2.wav
-  artifactKey: Guid(a285a4c43cf6d23498d456d2e8d49290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 13 Foley 2.wav using Guid(a285a4c43cf6d23498d456d2e8d49290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cbe4ef0fea1ededc8ad0a8ad3500b9') in 0.020641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 12 Loop (Laser).wav
-  artifactKey: Guid(795b7203911c0e94ebe861a546d44fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 12 Loop (Laser).wav using Guid(795b7203911c0e94ebe861a546d44fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b9db55326f445f847c6c04cf3001b2') in 0.021363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Sci-Fi Gun Sounds/Weapon 13 Shoot 2.wav
-  artifactKey: Guid(93b2e728bf5a33e4ab9023e09bb43909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Gun Sounds/Weapon 13 Shoot 2.wav using Guid(93b2e728bf5a33e4ab9023e09bb43909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9885442d194a3ad718275c3f4a771578') in 0.019049 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004043 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.285 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1285ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1044ms)
-			LoadAssemblies (124ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (381ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.5 MB.
-System memory in use after: 76.6 MB.
+Unloading 1522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1971.
-Total: 3.538000 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.048000 ms MarkObjects: 3.295000 ms  DeleteObjects: 0.024100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1962.
+Total: 3.364700 ms (FindLiveObjects: 0.170600 ms CreateObjectMapping: 0.048600 ms MarkObjects: 3.110200 ms  DeleteObjects: 0.034000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -628,122 +134,415 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 297.013086 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(20ca0cec3e151d04cae028b00ab0c424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(20ca0cec3e151d04cae028b00ab0c424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc3663a804190c258b8dbcf40ad8573') in 0.013254 seconds 
+  path: Assets/PushingBoss
+  artifactKey: Guid(0cb41ab767927a04d9f394573c129c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss using Guid(0cb41ab767927a04d9f394573c129c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777bb138bf43d4587cf0ee612fddda34') in 0.010653 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.879674 seconds.
-  path: Assets/Prefabs/Sci-fi Sniper.prefab
-  artifactKey: Guid(cf9ebb1a9c0691d4da0fddf3727704a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sci-fi Sniper.prefab using Guid(cf9ebb1a9c0691d4da0fddf3727704a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4ed27f6ca578b28dc77faa2437021d') in 0.094894 seconds 
+  Time since last request: 0.000255 seconds.
+  path: Assets/PushingBoss/Boss.prefab
+  artifactKey: Guid(d1357dcc0b7952248858dab5ae74bb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Boss.prefab using Guid(d1357dcc0b7952248858dab5ae74bb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7556c5d287e379ac5ade6ceb03188b') in 0.439636 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 293.363620 seconds.
-  path: Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Shebot_Rifle_Body_MAT.mat
-  artifactKey: Guid(bdcdc7089f07c984e97db235f3a6865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Shebot_Rifle_Body_MAT.mat using Guid(bdcdc7089f07c984e97db235f3a6865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963bc36a09de909bc604c10d5173c486') in 0.070050 seconds 
+  Time since last request: 6.192311 seconds.
+  path: Assets/PushingBoss/Grenadier
+  artifactKey: Guid(8c84957114474a14dbcd28c7926ff354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier using Guid(8c84957114474a14dbcd28c7926ff354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cd9716359c1a6600fa7632ccdc0143') in 0.010998 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.132269 seconds.
-  path: Assets/PUSHING/Enemy.prefab
-  artifactKey: Guid(8afbb91188241f14d81ea4e54775cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PUSHING/Enemy.prefab using Guid(8afbb91188241f14d81ea4e54775cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779beaff50fcfdb0fbdb223b5cf1ad5f') in 0.024286 seconds 
+  Time since last request: 20.206768 seconds.
+  path: Assets/PushingBoss/Grenadier/Textures
+  artifactKey: Guid(22a83e830d233494d99fc9b33976ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Textures using Guid(22a83e830d233494d99fc9b33976ad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3776684963c6de023e70d626ff4ad4af') in 0.010426 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/PUSHING/Manager.prefab
-  artifactKey: Guid(072b1f37dd1400c4591effa513c06162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PUSHING/Manager.prefab using Guid(072b1f37dd1400c4591effa513c06162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a558f793d97c14dce57c27eb589fc60') in 0.013631 seconds 
+  Time since last request: 0.030484 seconds.
+  path: Assets/PushingBoss/Grenadier/Textures/EnergyCore_Gradient.tif
+  artifactKey: Guid(60da32e447f278b44aed3835491cf713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Textures/EnergyCore_Gradient.tif using Guid(60da32e447f278b44aed3835491cf713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022c5afeace9b1c96799f7daa90f3da4') in 0.028691 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/PUSHING/Impact.prefab
-  artifactKey: Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PUSHING/Impact.prefab using Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c62f891a2b506732d5cba9f1dd0f742') in 0.073301 seconds 
+  Time since last request: 0.000221 seconds.
+  path: Assets/PushingBoss/Grenadier/Textures/Grenadier_Eye_Emission.tif
+  artifactKey: Guid(e966aee963a5a894cb111ee9f7b2ac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Textures/Grenadier_Eye_Emission.tif using Guid(e966aee963a5a894cb111ee9f7b2ac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1b7e807802d887498ada626e245f00') in 0.019055 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.388762 seconds.
-  path: Assets/Scripts/ScriptableObjects/Knife.asset
-  artifactKey: Guid(96418ea33022cf3449610fb844371a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Knife.asset using Guid(96418ea33022cf3449610fb844371a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042296a722c8c5f33b41d608a40ef873') in 0.010149 seconds 
+  Time since last request: 0.000223 seconds.
+  path: Assets/PushingBoss/Grenadier/Textures/Grenadier_Normal.tif
+  artifactKey: Guid(7d0bb41dd0dbe3644b7e619a2fe36c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Textures/Grenadier_Normal.tif using Guid(7d0bb41dd0dbe3644b7e619a2fe36c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5af193065719c10935433ea8c54d96e') in 0.076736 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Scripts/ScriptableObjects/Rifle3.asset
-  artifactKey: Guid(2b0710b80bf986845b80d9b90a5f75dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Rifle3.asset using Guid(2b0710b80bf986845b80d9b90a5f75dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e95a7a5a017c1ad212f5865bc455fc2') in 0.010500 seconds 
+  Time since last request: 0.000239 seconds.
+  path: Assets/PushingBoss/Grenadier/Textures/Grenadier_Eye_Normal.tif
+  artifactKey: Guid(9492ca5cda9b7f74ea5af288a8f20a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Textures/Grenadier_Eye_Normal.tif using Guid(9492ca5cda9b7f74ea5af288a8f20a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef43c4ef829d6b9ea3b8a3205ac73baf') in 0.021469 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Scripts/ScriptableObjects/Rifle4.asset
-  artifactKey: Guid(a10f8e7d4770feb4e8fd1dfcbd622210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Rifle4.asset using Guid(a10f8e7d4770feb4e8fd1dfcbd622210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cc0e3a3f756cae2eb8a7b994e95380') in 0.011413 seconds 
+  Time since last request: 0.000242 seconds.
+  path: Assets/PushingBoss/Grenadier/Textures/Grenadier_Albedo.tif
+  artifactKey: Guid(73d4cda3b62785f458d958f53adc6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Textures/Grenadier_Albedo.tif using Guid(73d4cda3b62785f458d958f53adc6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f9a2370ae92f9e55731aabe7dc1d18') in 0.023854 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Scripts/ScriptableObjects/Rifle2.asset
-  artifactKey: Guid(845a80378f972904e9d68eb2f6ab1096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Rifle2.asset using Guid(845a80378f972904e9d68eb2f6ab1096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b625f0c4514bac46f9dcad4660bdd2d') in 0.009989 seconds 
+  Time since last request: 0.000261 seconds.
+  path: Assets/PushingBoss/Grenadier/Textures/Grenadier_MetallicSmooth.tif
+  artifactKey: Guid(f1431b1f329f4a54c88a8a59335cd280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Textures/Grenadier_MetallicSmooth.tif using Guid(f1431b1f329f4a54c88a8a59335cd280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c537c1551a24e67f603cdb978484ff5') in 0.027336 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Scripts/ScriptableObjects/PlasmaRifle.asset
-  artifactKey: Guid(4ecb78bed90c7d74fb438fa3d96866a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/PlasmaRifle.asset using Guid(4ecb78bed90c7d74fb438fa3d96866a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf3b5008b67c1cd2c96fc98125f3916') in 0.010951 seconds 
+  Time since last request: 0.000311 seconds.
+  path: Assets/PushingBoss/Grenadier/Textures/EnergyCore_Noise.tif
+  artifactKey: Guid(baea65a7abf3c5a4095956327ddb1122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Textures/EnergyCore_Noise.tif using Guid(baea65a7abf3c5a4095956327ddb1122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9bc45cc347749a663d957c8544aa47') in 0.027562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.934909 seconds.
+  path: Assets/PushingBoss/Grenadier/Materials
+  artifactKey: Guid(4756cb6a51a72cc45a107903a8a7b3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Materials using Guid(4756cb6a51a72cc45a107903a8a7b3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71f03ce88cfa5ad5ed8016ea0c5f69e') in 0.011492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043781 seconds.
+  path: Assets/PushingBoss/Grenadier/Materials/Grenadier_Core_Mat.mat
+  artifactKey: Guid(a9bec445b198dd7458fcd489957a26b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Materials/Grenadier_Core_Mat.mat using Guid(a9bec445b198dd7458fcd489957a26b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d045b72a3ea452bd70bbb765306a5a5') in 0.051040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/PushingBoss/Grenadier/Materials/Grenadier_Eye_Mat.mat
+  artifactKey: Guid(39cc7989f799e874faf6589aeedb34f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Materials/Grenadier_Eye_Mat.mat using Guid(39cc7989f799e874faf6589aeedb34f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c76dbb1eee22c583cb7530390caf2f') in 0.024521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/PushingBoss/Grenadier/Materials/Grenadier_Mat.mat
+  artifactKey: Guid(48c4ba26d842cdb4786ed2bb55ab481c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Grenadier/Materials/Grenadier_Mat.mat using Guid(48c4ba26d842cdb4786ed2bb55ab481c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bace0aa1a9d66ecedf5b69e720d415') in 0.021863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.637059 seconds.
+  path: Assets/PushingBoss/Boss.prefab
+  artifactKey: Guid(d1357dcc0b7952248858dab5ae74bb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Boss.prefab using Guid(d1357dcc0b7952248858dab5ae74bb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86e0718e9fdf8959372811aa4e87f78') in 0.030873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.260040 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/glass_scope.mat
+  artifactKey: Guid(1808a8dc339617d47874839784dd24cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/glass_scope.mat using Guid(1808a8dc339617d47874839784dd24cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd7f4c7a0a0eaf6c3f52868053b9ca2') in 0.025728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/Materials/LOWPOLY-COLORS.mat
+  artifactKey: Guid(e17bea9fe152b504abd6e269a43dea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/T/- Meshes_T/Music_T/Materials/LOWPOLY-COLORS.mat using Guid(e17bea9fe152b504abd6e269a43dea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdc86f93253257fa6859cfabe279c03') in 0.034272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Protofactor/Sci Fi/Sci Fi Characters Mega Pack Vol 2/Sci Fi Creatures Vol 2/Arack/Materials/M_Arack_Orange.mat
+  artifactKey: Guid(8d8646888c11ac04e90ba8ccc9a77155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Protofactor/Sci Fi/Sci Fi Characters Mega Pack Vol 2/Sci Fi Creatures Vol 2/Arack/Materials/M_Arack_Orange.mat using Guid(8d8646888c11ac04e90ba8ccc9a77155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52584b642c22b44a079cd9ced1dd5e83') in 0.121895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Protofactor/Sci Fi/Sci Fi Characters Mega Pack Vol 2/Sci Fi Creatures Vol 2/Arack/Materials/M_Arack_Green.mat
+  artifactKey: Guid(54f1d38e11325064eb8e57eed8cca5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Protofactor/Sci Fi/Sci Fi Characters Mega Pack Vol 2/Sci Fi Creatures Vol 2/Arack/Materials/M_Arack_Green.mat using Guid(54f1d38e11325064eb8e57eed8cca5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74de26b72bc36c90c0fb976ecea8c03') in 0.181137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Protofactor/Sci Fi/Sci Fi Characters Mega Pack Vol 2/Sci Fi Creatures Vol 2/Anglerox/Materials/M_Anglerox.mat
+  artifactKey: Guid(00efc4ad6958dac41bad90463dfe4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Protofactor/Sci Fi/Sci Fi Characters Mega Pack Vol 2/Sci Fi Creatures Vol 2/Anglerox/Materials/M_Anglerox.mat using Guid(00efc4ad6958dac41bad90463dfe4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcc840961be8e93133c3198ce86af8c') in 0.038370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Protofactor/Sci Fi/Sci Fi Characters Mega Pack Vol 2/Sci Fi Creatures Vol 2/Arack/Materials/M_Arack_Dark.mat
+  artifactKey: Guid(5ad3b9200316e854691f121d6b61905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Protofactor/Sci Fi/Sci Fi Characters Mega Pack Vol 2/Sci Fi Creatures Vol 2/Arack/Materials/M_Arack_Dark.mat using Guid(5ad3b9200316e854691f121d6b61905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698899b9ee3e286ba133fc875ab5361a') in 0.101997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346708 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Bullet___Bullet_Shuttle.mat
+  artifactKey: Guid(d856920d90b7a474da5e56fe8bf07cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Bullet___Bullet_Shuttle.mat using Guid(d856920d90b7a474da5e56fe8bf07cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d61c467940cc98b964f19449267e3fe') in 0.023310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/atlas-night-LPUP.mat
+  artifactKey: Guid(5689e02792912784c815757bab07d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/atlas-night-LPUP.mat using Guid(5689e02792912784c815757bab07d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db96653d65b9bd28bb57cc84fabc3f3a') in 0.056608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/atlas-LPUP.mat
+  artifactKey: Guid(03ddc7e460b33402eb7640fab3881ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/atlas-LPUP.mat using Guid(03ddc7e460b33402eb7640fab3881ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd710084108b29949cb0590be035f8d04') in 0.026903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Demo/HDR&Cubemap/Cube map.mat
+  artifactKey: Guid(45828b4b9c91e294bad82037e27f11ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Demo/HDR&Cubemap/Cube map.mat using Guid(45828b4b9c91e294bad82037e27f11ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f2950f222b86983c9fbee5d70b5053') in 0.092675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Agent_Naomi_Pistol_Ammo1.mat
+  artifactKey: Guid(a4f6589172af5a94abc291aa7022522b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Agent_Naomi_Pistol_Ammo1.mat using Guid(a4f6589172af5a94abc291aa7022522b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9903e86eea157c4acd9b02c8158620') in 0.026882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047970 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Agent_Naomi_KnifeMAT.mat
+  artifactKey: Guid(f07cbbe7d1a2d6745a57611c582c0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Agent_Naomi_KnifeMAT.mat using Guid(f07cbbe7d1a2d6745a57611c582c0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08652181fa8e671b313d14a93930235') in 0.025085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/64 GLASS-LPUP.mat
+  artifactKey: Guid(ffce2a7e1519d465684f3f97da456fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/64 GLASS-LPUP.mat using Guid(ffce2a7e1519d465684f3f97da456fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaa493d0d19548441042006aba652cb') in 0.027961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Agent_Naomi_Pistol1w.mat
+  artifactKey: Guid(e96d17a7dc4e8bf4e8ac0b38df165ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/Sci-fi Weapons Arsenal/Meshes/Materials/Agent_Naomi_Pistol1w.mat using Guid(e96d17a7dc4e8bf4e8ac0b38df165ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602ed4ac38c9ce783d7358ddb1e67138') in 0.027070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/63 EMISSION-GREEN-LPUP.mat
+  artifactKey: Guid(c78b6e378cced6e49b9586bae01cbc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/63 EMISSION-GREEN-LPUP.mat using Guid(c78b6e378cced6e49b9586bae01cbc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f29a91a269fcb6e43d8afcba2e2c38') in 0.139676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/62 EMISSION-YELLOW-LPUP.mat
+  artifactKey: Guid(6c0d25474dfd33349bfeedd203d2a3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/62 EMISSION-YELLOW-LPUP.mat using Guid(6c0d25474dfd33349bfeedd203d2a3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6557a20cda879452a6b401c1a91c3905') in 0.021775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/64 GLASS-NIGHT-LPUP.mat
+  artifactKey: Guid(ac0561686028e98488de312b47d5587d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/64 GLASS-NIGHT-LPUP.mat using Guid(ac0561686028e98488de312b47d5587d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139200820648a8ee6af3d6b08405ead9') in 0.032448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029368 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/59 EMISSION-WHITE-LPUP.mat
+  artifactKey: Guid(f025c5db938b349a8b450e845b67e20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/59 EMISSION-WHITE-LPUP.mat using Guid(f025c5db938b349a8b450e845b67e20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dd8809df145559fd9d8d0d144c1d6e') in 0.022290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/61 EMISSION-ORANGE-LPUP.mat
+  artifactKey: Guid(0901bd31274b7c24a907731fa5e16f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/61 EMISSION-ORANGE-LPUP.mat using Guid(0901bd31274b7c24a907731fa5e16f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd760434d7d34271148a3aa9bb81d03cc') in 0.030067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Survival_M/Materials/61 EMISSION-ORANGE.mat
+  artifactKey: Guid(a0087056e75656c49a10d8b1e088f86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Survival_M/Materials/61 EMISSION-ORANGE.mat using Guid(a0087056e75656c49a10d8b1e088f86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a7ccee433319892f9a8bcf5dbce086') in 0.027026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/58 WHITE-LPUP.mat
+  artifactKey: Guid(11a8c080607cf47c299aff53087e0334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/58 WHITE-LPUP.mat using Guid(11a8c080607cf47c299aff53087e0334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bc92cb6b90c1403b1aa25196fa7c64') in 0.021122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/57 BLACK-LPUP.mat
+  artifactKey: Guid(66c05709e04ed42a3a537ad26aca9cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/57 BLACK-LPUP.mat using Guid(66c05709e04ed42a3a537ad26aca9cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea1d3e21465f9af29cbde0ccb8e9cf8') in 0.021071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/60 EMMISION-RED-LPUP.mat
+  artifactKey: Guid(ecce1a1895e37524282423faddfd60c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/60 EMMISION-RED-LPUP.mat using Guid(ecce1a1895e37524282423faddfd60c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29457f99b98f2a239296af013a5b45b') in 0.027159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.973491 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/54 EMISSION-BLUE-LPUP.mat
+  artifactKey: Guid(fd6fc35b57276914f8927f653783b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/54 EMISSION-BLUE-LPUP.mat using Guid(fd6fc35b57276914f8927f653783b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d041bc978445c96b01f2880046596b9') in 0.024931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/55 EMISSION-PURPLE-LPUP.mat
+  artifactKey: Guid(bd23a16922c3f904e939e70f26d9a7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/55 EMISSION-PURPLE-LPUP.mat using Guid(bd23a16922c3f904e939e70f26d9a7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4ff184d1c03f0184391e7496e3e864') in 0.029463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/43 BLUE-MEDIUM-LPUP.mat
+  artifactKey: Guid(4ea8e2de4ac6b564c98a36f67a2ad64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/43 BLUE-MEDIUM-LPUP.mat using Guid(4ea8e2de4ac6b564c98a36f67a2ad64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582df537ae09c0e28062a048029f04aa') in 0.031450 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000285 seconds.
-  path: Assets/Scripts/ScriptableObjects/Rifle5.asset
-  artifactKey: Guid(2e53679f16e666247aad01cf1718d82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Rifle5.asset using Guid(2e53679f16e666247aad01cf1718d82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febc99ac8d8ec6270f5a06d972883a6e') in 0.008663 seconds 
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/44 BLUE-LPUP.mat
+  artifactKey: Guid(0d337a70f9e175348909eb917056c239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/44 BLUE-LPUP.mat using Guid(0d337a70f9e175348909eb917056c239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cff048802324050578c695897650983') in 0.027526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/7 SKIN-WHITE-LPUP.mat
+  artifactKey: Guid(816a1e9d58d34d34b85cfabc577a2fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/7 SKIN-WHITE-LPUP.mat using Guid(816a1e9d58d34d34b85cfabc577a2fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80130e84ac7a8b3a48f6a4fa6cae92a5') in 0.033531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/5 SKIN-LIGHT-LPUP.mat
+  artifactKey: Guid(284c356f2f17a644380d230a1abff44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/5 SKIN-LIGHT-LPUP.mat using Guid(284c356f2f17a644380d230a1abff44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5768e3f2a052d880d23f2e52f0aea51') in 0.028766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/34 GREEN-DARK-LPUP.mat
+  artifactKey: Guid(2a9bcab9060d28d468fc3c4d93775e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/34 GREEN-DARK-LPUP.mat using Guid(2a9bcab9060d28d468fc3c4d93775e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80eee31fba14ba20654450a9a4b4e8a2') in 0.027085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Survival_M/Materials/28 ORANGE.mat
+  artifactKey: Guid(098e7c3f505fc66459ed345254ccb5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Survival_M/Materials/28 ORANGE.mat using Guid(098e7c3f505fc66459ed345254ccb5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6eb2f423374c363e4bdf8ffeccf120a') in 0.025942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/50 PINK-DARK-LPUP.mat
+  artifactKey: Guid(be11bb95eeb9f45e2a4ab7d03f51b6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/50 PINK-DARK-LPUP.mat using Guid(be11bb95eeb9f45e2a4ab7d03f51b6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608723ba331a770831c839dac9522b8d') in 0.026839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Survival_M/Materials/17 GREY-DARKEST.mat
+  artifactKey: Guid(c5180ee7c8b4942438de942bb7855fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Survival_M/Materials/17 GREY-DARKEST.mat using Guid(c5180ee7c8b4942438de942bb7855fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c98992d0ffdd26b537f0484a7950ed') in 0.026030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/31 YELLOW-LIGHT-LPUP.mat
+  artifactKey: Guid(a6c5db515b4e26a468041e9e22e41af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/31 YELLOW-LIGHT-LPUP.mat using Guid(a6c5db515b4e26a468041e9e22e41af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dfbfede9863331119e6c047d5693b5') in 0.028888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/52 PINK-LPUP.mat
+  artifactKey: Guid(c44501de50bef411e8f88b70fe39490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/52 PINK-LPUP.mat using Guid(c44501de50bef411e8f88b70fe39490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae25a629b8b1b647c430272407a2ce71') in 0.027318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/11 BROWN-MEDIUM-LPUP.mat
+  artifactKey: Guid(0de74cacf6310c64ca1b6862ba4b219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/11 BROWN-MEDIUM-LPUP.mat using Guid(0de74cacf6310c64ca1b6862ba4b219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6430cc28c5b601d229e5bd192b700b88') in 0.020650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/10 BROWN-DARK-LPUP.mat
+  artifactKey: Guid(6e3ac6e47b4d7a44685dfef9bf209413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/10 BROWN-DARK-LPUP.mat using Guid(6e3ac6e47b4d7a44685dfef9bf209413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48e8c848b8d5364e8ca6f6e7b6661d8') in 0.020050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/53 PINK-LIGHT-LPUP.mat
+  artifactKey: Guid(cc039e4bd41a440f793d0b9f704387d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/53 PINK-LIGHT-LPUP.mat using Guid(cc039e4bd41a440f793d0b9f704387d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e6286c1505de4ffdc2148b557f6d1b') in 0.028914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/26 RED-DARK-LPUP.mat
+  artifactKey: Guid(48b31daa83ddb854fadd9402702394e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/26 RED-DARK-LPUP.mat using Guid(48b31daa83ddb854fadd9402702394e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19b9b7c41bc503858f8cb3c47925a80') in 0.020970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/14 BROWN LIGHTEST-LPUP.mat
+  artifactKey: Guid(a7862d5615928c34e868320de65c2777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/14 BROWN LIGHTEST-LPUP.mat using Guid(a7862d5615928c34e868320de65c2777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e4b582a8eae0f397f08dcb33f2f7ae') in 0.021421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/9 BROWN-DARKEST-LPUP.mat
+  artifactKey: Guid(3b20fc9e84b968641b7312bdcdd1ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/9 BROWN-DARKEST-LPUP.mat using Guid(3b20fc9e84b968641b7312bdcdd1ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6863731ccea8053c9105900a552b1eee') in 0.020465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/12 BROWN-LPUP.mat
+  artifactKey: Guid(d07dc9a550022a74792d211f343e0b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/12 BROWN-LPUP.mat using Guid(d07dc9a550022a74792d211f343e0b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd201af2e0f4e29f6b1c47e9102be5670') in 0.021163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/4 SKIN-LPUP.mat
+  artifactKey: Guid(e4149755fc1d98a498388cedff353ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/4 SKIN-LPUP.mat using Guid(e4149755fc1d98a498388cedff353ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1778fe7a0b80e611403f9fd27c4a70') in 0.028879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/49 PINK-DARKEST-LPUP.mat
+  artifactKey: Guid(29a84e950ada74848bd4591f0b64bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/49 PINK-DARKEST-LPUP.mat using Guid(29a84e950ada74848bd4591f0b64bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49d94f3574c2dfff2b66670847ed6d1') in 0.025503 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000284 seconds.
-  path: Assets/Scripts/ScriptableObjects/MachineGun.asset
-  artifactKey: Guid(b250a3b2121c43542aea189b2603282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/MachineGun.asset using Guid(b250a3b2121c43542aea189b2603282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5ec22976430e89c340a09632503802') in 0.010540 seconds 
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/28 ORANGE-LPUP.mat
+  artifactKey: Guid(700ae469e5be9ac4095d29b97116027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/28 ORANGE-LPUP.mat using Guid(700ae469e5be9ac4095d29b97116027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc90720ce3cac8fe39f56673f555ab40') in 0.020306 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Scripts/ScriptableObjects/RocketLauncher.asset
-  artifactKey: Guid(0b2dd2250c7fd8646b95604d894ba723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/RocketLauncher.asset using Guid(0b2dd2250c7fd8646b95604d894ba723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b465aecee5eb7db2b84669480ff6415') in 0.008596 seconds 
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/29 ORANGE-LIGHT-LPUP.mat
+  artifactKey: Guid(2768469f7f5282a4282f61dbf62e68e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/29 ORANGE-LIGHT-LPUP.mat using Guid(2768469f7f5282a4282f61dbf62e68e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c33c90179a65927b4db97e42899ae0') in 0.026804 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Scripts/ScriptableObjects/Shotgun.asset
-  artifactKey: Guid(f34762b50faaa4346b8775029addfd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Shotgun.asset using Guid(f34762b50faaa4346b8775029addfd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31e86d316342cc1c87e3422fa16d57b') in 0.009001 seconds 
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/18 GREY-DARK-LPUP.mat
+  artifactKey: Guid(40a353f6117398145a3e785d9854de93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/18 GREY-DARK-LPUP.mat using Guid(40a353f6117398145a3e785d9854de93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d31d5f94e05b1f35ac66af28aae9b5') in 0.024137 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Scripts/ScriptableObjects/Pistol.asset
-  artifactKey: Guid(7d31aa61d787aaf44937f5f62d016f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Pistol.asset using Guid(7d31aa61d787aaf44937f5f62d016f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9f0599b3ef67679d2885c7949ef848') in 0.010460 seconds 
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Survival_M/Materials/43 BLUE-MEDIUM.mat
+  artifactKey: Guid(374d6d6c080425f4cb4136fd3c345069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Survival_M/Materials/43 BLUE-MEDIUM.mat using Guid(374d6d6c080425f4cb4136fd3c345069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b37ba17b907468dfde9800cd5fcd8c') in 0.022581 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Scripts/ScriptableObjects/Sniper.asset
-  artifactKey: Guid(d59d9a4ead365804382ae59a34cee2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Sniper.asset using Guid(d59d9a4ead365804382ae59a34cee2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c3cfd7a39b9bee89c0bef2e5272082') in 0.010936 seconds 
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/46 BLUE-LIGHEST-LPUP.mat
+  artifactKey: Guid(b9bae1e20222386438bc64a9a3089d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/46 BLUE-LIGHEST-LPUP.mat using Guid(b9bae1e20222386438bc64a9a3089d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a65a7d0338157793e1e05c50972bcd9') in 0.026353 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Scripts/ScriptableObjects/Rifle1.asset
-  artifactKey: Guid(cc0547138da1f514caaade6a4825b346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptableObjects/Rifle1.asset using Guid(cc0547138da1f514caaade6a4825b346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168bde293e6eae80a61427aba26aa8d3') in 0.009467 seconds 
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/30 YELLOW-LPUP.mat
+  artifactKey: Guid(42caffe1132386f4daa037a9663088b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/30 YELLOW-LPUP.mat using Guid(42caffe1132386f4daa037a9663088b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e608e70bdacde39ead093deca5f4e3') in 0.027776 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.709707 seconds.
-  path: Assets/Scenes/StartMenu.unity
-  artifactKey: Guid(1c1cba1f00191bb4aa4535bb2d51e503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/StartMenu.unity using Guid(1c1cba1f00191bb4aa4535bb2d51e503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc11218f6b251965098ca4473d5be42') in 0.016580 seconds 
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/Materials/11 BROWN-MEDIUM.mat
+  artifactKey: Guid(5607750a5693b514487969c4bcdddcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Nature_M/Trees_M/Materials/11 BROWN-MEDIUM.mat using Guid(5607750a5693b514487969c4bcdddcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2834bf8005ac9bce2d9bf3be1fb1cbe') in 0.029864 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.498586 seconds.
-  path: Assets/Scenes/Castle.unity
-  artifactKey: Guid(eb92523331330524e944e4010fce5191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Castle.unity using Guid(eb92523331330524e944e4010fce5191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4205e2b5584cb11dacb026eb5bb235e6') in 0.007816 seconds 
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/17 GREY-DARKEST-LPUP.mat
+  artifactKey: Guid(c48ed0c67054fc24da0ac1cced5a308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi Weapons Arsenal/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/17 GREY-DARKEST-LPUP.mat using Guid(c48ed0c67054fc24da0ac1cced5a308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd012b2b67c07fcbd91c0727616844b8f') in 0.032282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075861 seconds.
+  path: Assets/PushingBoss/Boss.prefab
+  artifactKey: Guid(d1357dcc0b7952248858dab5ae74bb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PushingBoss/Boss.prefab using Guid(d1357dcc0b7952248858dab5ae74bb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee333beeafc6253e93f2acfdb5f17896') in 0.035916 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

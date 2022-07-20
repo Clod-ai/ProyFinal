@@ -200,7 +200,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookRadius: 10
-  mAnimator: {fileID: 6606613496659893319}
 --- !u!114 &6606613495443771346
 MonoBehaviour:
   m_ObjectHideFlags: 0

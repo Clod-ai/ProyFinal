@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\PauseMenu\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerInventory.cs" />
+    <Compile Include="Assets\PushingBoss\EnemyController_New.cs" />
     <Compile Include="Assets\PUSHING\EnemyController_New.cs" />
     <Compile Include="Assets\Scripts\StartMenu\MenuActions.cs" />
     <Compile Include="Assets\PUSHING\PlayerManager.cs" />

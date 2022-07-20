@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyController_New : MonoBehaviour
+public class EnemyController_NewBoss : MonoBehaviour
 {
 
     public float lookRadius = 30f;
